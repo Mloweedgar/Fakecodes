@@ -1,0 +1,83 @@
+
+#testmonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #7F00FF; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #E100FF, #7F00FF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#testmonials .title {
+    color: white;
+    padding: 40px 0px 40px 0px;
+    font-weight: bold;
+}
+
+
+#testmonials .card-section {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#testmonials .card-section .card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    -webkit-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.26);
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.26);
+}
+
+
+#testmonials .avatar-section .avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #E100FF;
+}
+
+#testmonials .avatar-section .avatar-title {
+    color: #E100FF;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#testmonials .avatar-section .testmonial-description {
+    padding: 20px;
+}
+
+#testmonials .rating-stars {
+    color: #E100FF;
+}
+
+#testmonials .card-buttons {
+    padding: 40px;
+}
+
+#testmonials .small-buttons {
+    vertical-align: middle;
+    margin: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #E100FF;
+}
+
+#testmonials .small-buttons:nth-child(1) {
+    background-color: #7F00FF;
+}
+
+#testmonials .card-buttons {
+    display: flex;
+
+}
+
